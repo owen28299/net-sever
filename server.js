@@ -6,7 +6,7 @@ var fs = require('fs');
 
 function returnHeader(length, type, status) {
   return `HTTP/1.1 ` + status  +`
-Server: nginx/1.4.6 (Ubuntu)
+Server: localhost 8080
 Date:` + new Date() + `
 Content-Type:` + type + `; charset=utf-8
 Content-Length:` + length +`
